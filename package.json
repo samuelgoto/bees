@@ -1,0 +1,19 @@
+{
+  "name": "bees",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelgoto/bees.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/samuelgoto/bees/issues"
+  },
+  "homepage": "https://github.com/samuelgoto/bees",
+  "dependencies": {
+    "xml2js": "^0.4.19"
+  }
+}
