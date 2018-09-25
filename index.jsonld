@@ -4,12 +4,12 @@
   "name": "Annotated Honey Bee Images",
   "url": "https://code.sgo.to/bees/index.jsonld",
   "description": "The kaggle honey bee dataset in JSON-LD",
-  "entries": [
+  "classes": [
     {
-      "@type": "Entry",
+      "@type": "Class",
       "@id": "subspecies",
       "name": "subspecies",
-      "examples": [
+      "images": [
         {
           "@type": "Image",
           "url": "images/file",
@@ -20,10 +20,10 @@
       ]
     },
     {
-      "@type": "Entry",
+      "@type": "Class",
       "@id": "Italian%20honey%20bee",
       "name": "Italian honey bee",
-      "examples": [
+      "images": [
         {
           "@type": "Image",
           "url": "images/017_029.png",
@@ -21083,10 +21083,10 @@
       ]
     },
     {
-      "@type": "Entry",
+      "@type": "Class",
       "@id": "VSH%20Italian%20honey%20bee",
       "name": "VSH Italian honey bee",
-      "examples": [
+      "images": [
         {
           "@type": "Image",
           "url": "images/008_127.png",
@@ -22483,10 +22483,10 @@
       ]
     },
     {
-      "@type": "Entry",
+      "@type": "Class",
       "@id": "Carniolan%20honey%20bee",
       "name": "Carniolan honey bee",
-      "examples": [
+      "images": [
         {
           "@type": "Image",
           "url": "images/011_027.png",
@@ -25997,10 +25997,10 @@
       ]
     },
     {
-      "@type": "Entry",
+      "@type": "Class",
       "@id": "Russian%20honey%20bee",
       "name": "Russian honey bee",
-      "examples": [
+      "images": [
         {
           "@type": "Image",
           "url": "images/002_024.png",
@@ -29693,10 +29693,10 @@
       ]
     },
     {
-      "@type": "Entry",
+      "@type": "Class",
       "@id": "1%20Mixed%20local%20stock%202",
       "name": "1 Mixed local stock 2",
-      "examples": [
+      "images": [
         {
           "@type": "Image",
           "url": "images/038_362.png",
@@ -33004,10 +33004,10 @@
       ]
     },
     {
-      "@type": "Entry",
+      "@type": "Class",
       "@id": "Western%20honey%20bee",
       "name": "Western honey bee",
-      "examples": [
+      "images": [
         {
           "@type": "Image",
           "url": "images/033_099.png",

@@ -35,18 +35,18 @@ async function main() {
   "name": "Annotated Honey Bee Images",
   "url": "https://code.sgo.to/bees/index.jsonld",
   "description": "The kaggle honey bee dataset in JSON-LD",
-  "entries": []
+  "classes": []
  };
 
  for (let subspecies in sets) {
   // console.log(subspecies);
   let entry = {
-   "@type": "Entry",
+   "@type": "Class",
    "@id": encodeURIComponent(subspecies),
    "name": subspecies,
-   "examples": sets[subspecies]
+   "images": sets[subspecies]
   };
-  result.entries.push(entry);
+  result.classes.push(entry);
  }
 
  console.log(JSON.stringify(result, undefined, 2));
